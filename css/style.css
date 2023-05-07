@@ -1,0 +1,129 @@
+/*All Style Are Basic*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+   margin-bottom: 15px;
+text-align: center;
+color: #ff4532;
+font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    padding: 15px;
+    position: relative;
+    width: 90%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: #828181;
+    border: 3.5px solid #000;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.sub1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #F8A0AD;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.sub2 {
+    float: right;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: 125%;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    font-weight: bold;
+    background-color: #FF5704;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.sub3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    margin: -3px -3px 0px;
+    font-weight: bold;
+    background-color: #cece04;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    height: 150px;
+    overflow: auto;
+    background-color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: 3px ;
+}
+
+.row {
+    width: 90%;
+}
+
+/*This is the desktop view media query at 992px*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/*This is the tablet view media query at 991px to 768px*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        float: left; 
+    }
+
+    .colmn-md-12 {
+        width: 100%;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        }
+}
+
+/*This is the mobile view media query max 767px*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
